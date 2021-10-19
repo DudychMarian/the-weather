@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail {
+  background-color: rgba(0, 0, 0, 0.774);
+  height: 80vh;
+  width: 27vw;
+  padding-left: 3vw;
+}
+
+.searchDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchInput {
+  color: #676d6c;
+  width: 20vw;
+  height: 70px;
+  font-size: 28px;
+  font-weight: 500;
+  border: none;
+  padding: 0;
+  background: transparent;
+  outline: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.199);
+}
+
+.searchButton {
+  background-color: rgb(129, 160, 154);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  height: 70px;
+  width: 70px;
+}
+
+.searchImg {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.card {
+  position: absolute;
+  top: 75%;
+  left: 4vw;
+}
+
+.list {
+  font-size: 28px;
+  color: #676d6c;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25vw;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.199);
+}
+
+.list li {
+  margin-bottom: 30px;
+  cursor: pointer;
+}

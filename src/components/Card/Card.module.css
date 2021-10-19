@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.774);
+  padding: 15px;
+  min-width: 500px;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 25px;
+}
+
+.weatherInfo {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  flex-direction: column;
+}
+
+.temp {
+  font-size: 96px;
+  font-weight: 500;
+}
+
+.small {
+  font-size: 18px;
+  margin-bottom: 0;
+}
