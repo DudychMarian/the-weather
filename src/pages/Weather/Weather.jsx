@@ -33,7 +33,7 @@ export const Weather = () => {
     async function fetchData() {
       try {
         const dataResponse = await axios.get(
-          `http://api.weatherapi.com/v1/current.json?key=c2776f71cae84aa1811224001211610&q=${currentCity}`,
+          `https://api.weatherapi.com/v1/current.json?key=c2776f71cae84aa1811224001211610&q=${currentCity}`,
         );
 
         setData(dataResponse.data);
