@@ -1,0 +1,13 @@
+.toggleL {
+  margin-right: 15px;
+}
+
+.toggleR {
+  margin-left: 20px;
+}
+
+.pageToggle {
+  display: flex;
+  align-items: center;
+  color: #676d6c;
+}

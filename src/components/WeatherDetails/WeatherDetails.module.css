@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.199);
+  margin-bottom: 30px;
 }
 
 .weatherDetail {
@@ -15,7 +17,8 @@ h3 {
   margin-bottom: 40px;
 }
 
-p {
+p,
+.weatherInfo {
   font-size: 28px;
   padding: 0;
   margin: 0;

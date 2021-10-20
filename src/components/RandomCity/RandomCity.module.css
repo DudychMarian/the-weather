@@ -1,0 +1,21 @@
+.list {
+  font-size: 28px;
+  color: #676d6c;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25vw;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.199);
+  transition: transform 0.4s ease-in-out;
+}
+
+.list li {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.list li:hover {
+  transform: translateX(5px);
+  color: #5f6e6c;
+}

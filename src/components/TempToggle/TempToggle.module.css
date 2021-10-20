@@ -1,0 +1,13 @@
+.toggleTemp {
+  display: flex;
+  align-items: center;
+  color: #676d6c;
+}
+
+.tempC {
+  margin-right: 15px;
+}
+
+.tempF {
+  margin-left: 25px;
+}

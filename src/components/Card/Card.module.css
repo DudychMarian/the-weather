@@ -4,8 +4,14 @@
   backdrop-filter: blur(3px);
   background-color: rgba(0, 0, 0, 0.774);
   padding: 15px;
-  min-width: 500px;
+  min-width: 600px;
   align-items: center;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
 }
 
 h1 {
