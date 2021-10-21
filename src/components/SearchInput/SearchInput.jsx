@@ -1,17 +1,28 @@
 import React from 'react';
+import { Hint } from 'react-autocomplete-hint';
+
+import { city } from '../../data/city';
 
 import styles from './SearchInput.module.css';
 
 export const SearchInput = ({ inputChange, handleInputChange, placeholder, handleClick }) => {
+  const [hintData, setHintData] = React.useState([]);
+
+  React.useEffect(() => {
+    setHintData(city);
+  }, []);
+
   return (
     <div className={styles.searchDetails}>
       <label>
-        <input
-          value={inputChange}
-          onChange={handleInputChange}
-          placeholder={placeholder}
-          className={styles.searchInput}
-        />
+        <Hint options={hintData} allowTabFill>
+          <input
+            value={inputChange}
+            onChange={handleInputChange}
+            placeholder={placeholder}
+            className={styles.searchInput}
+          />
+        </Hint>
       </label>
       <button onClick={handleClick} className={styles.searchButton} type="submit">
         <svg

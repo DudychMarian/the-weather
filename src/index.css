@@ -4,3 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.rah-hint {
+  color: #9aa3a2 !important;
+}

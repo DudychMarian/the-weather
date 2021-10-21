@@ -32,10 +32,10 @@ ul {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background: url(./img/rain.jpg) no-repeat;
-  -moz-background-size: 100%; /* Firefox 3.6+ */
-  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-  -o-background-size: 100%; /* Opera 9.6+ */
-  background-size: cover; /* Современные браузеры */
+  -moz-background-size: cover; /* Firefox 3.6+ */
+  -webkit-background-size: cover; /* Safari 3.1+ and Chrome 4.0+ */
+  -o-background-size: cover; /* Opera 9.6+ */
+  background-size: cover;
   -webkit-box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.85);
   box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.85);
 }
