@@ -15,7 +15,7 @@ yarn
 yarn start
 ```
 
-## .env.local
+## .env
 
 - REACT_APP_WEATHER_TOKEN - your personal key from [weathermap api_keys](https://www.weatherapi.com/)
 - REACT_APP_IP_INFO_TOKEN - your personal key from [ipinfo](https://ipinfo.io/account/home)
