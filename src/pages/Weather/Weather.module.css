@@ -17,6 +17,7 @@
 }
 
 .toggle {
+  padding-bottom: 30px;
   display: flex;
   width: 25vw;
   justify-content: space-between;
