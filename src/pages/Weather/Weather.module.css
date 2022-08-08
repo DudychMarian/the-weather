@@ -4,6 +4,8 @@
 }
 
 .detail {
+  overflow-y: auto;
+  overflow-x: hidden;
   background-color: rgba(0, 0, 0, 0.815);
   height: 80vh;
   width: 27vw;
